@@ -1,6 +1,6 @@
 Aplikasi SpellCheker PHP
 
-
+![Aplikasi SpellCheker PHP](https://github.com/rahadiana/php-spell-checker/raw/master/Cover-Image.png)
 Untuk Pembelajaran Silahkan Clone
 
     git clone https://github.com/rahadiana/php-spell-checker.git
