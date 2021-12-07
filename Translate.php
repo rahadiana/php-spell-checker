@@ -5,7 +5,7 @@ function GetTranslate($SourceLang,$transLang,$Kata){
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://translate.google.com/translate_a/t?client=at&sc=1&v=2.0&sl=$SourceLang&tl=$transLang&hl=nl&ie=UTF-8&oe=UTF-8&text=".urlencode($Kata),
+  CURLOPT_URL => "https://translate.google.com/translate_a/t?client=gtx&sc=1&v=2.0&sl=$SourceLang&tl=$transLang&hl=nl&ie=UTF-8&oe=UTF-8&text=".urlencode($Kata),
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_SSL_VERIFYHOST => false,
   CURLOPT_SSL_VERIFYPEER => false,
